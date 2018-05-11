@@ -12,6 +12,7 @@
 		6F25728620A6433000DA5B2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F25728420A6433000DA5B2D /* Main.storyboard */; };
 		6F25728820A6433300DA5B2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F25728720A6433300DA5B2D /* Assets.xcassets */; };
 		6F25728B20A6433300DA5B2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F25728920A6433300DA5B2D /* LaunchScreen.storyboard */; };
+		6F25729320A6439D00DA5B2D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6F25729220A6439D00DA5B2D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6F25728720A6433300DA5B2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F25728A20A6433300DA5B2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F25728C20A6433300DA5B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F25729220A6439D00DA5B2D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		6F25727420A6433000DA5B2D = {
 			isa = PBXGroup;
 			children = (
+				6F25729220A6439D00DA5B2D /* README.md */,
 				6F25727F20A6433000DA5B2D /* Capital Cities */,
 				6F25727E20A6433000DA5B2D /* Products */,
 			);
@@ -124,6 +127,7 @@
 			files = (
 				6F25728B20A6433300DA5B2D /* LaunchScreen.storyboard in Resources */,
 				6F25728820A6433300DA5B2D /* Assets.xcassets in Resources */,
+				6F25729320A6439D00DA5B2D /* README.md in Resources */,
 				6F25728620A6433000DA5B2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,12 +285,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JK6DF95Y7;
 				INFOPLIST_FILE = "Capital Cities/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.forrestwparker.Capital-Cities";
+				PRODUCT_BUNDLE_IDENTIFIER = com.forrestwparker.asdf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,12 +303,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JK6DF95Y7;
 				INFOPLIST_FILE = "Capital Cities/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.forrestwparker.Capital-Cities";
+				PRODUCT_BUNDLE_IDENTIFIER = com.forrestwparker.asdf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
