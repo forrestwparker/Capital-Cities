@@ -13,6 +13,8 @@
 		6F25728820A6433300DA5B2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F25728720A6433300DA5B2D /* Assets.xcassets */; };
 		6F25728B20A6433300DA5B2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F25728920A6433300DA5B2D /* LaunchScreen.storyboard */; };
 		6F25729320A6439D00DA5B2D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6F25729220A6439D00DA5B2D /* README.md */; };
+		6F25729820A645C500DA5B2D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F25729720A645C500DA5B2D /* MapKit.framework */; };
+		6F25729A20A646D100DA5B2D /* Capital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F25729920A646D100DA5B2D /* Capital.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6F25728A20A6433300DA5B2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F25728C20A6433300DA5B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F25729220A6439D00DA5B2D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6F25729720A645C500DA5B2D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6F25729920A646D100DA5B2D /* Capital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capital.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F25729820A645C500DA5B2D /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +48,7 @@
 				6F25729220A6439D00DA5B2D /* README.md */,
 				6F25727F20A6433000DA5B2D /* Capital Cities */,
 				6F25727E20A6433000DA5B2D /* Products */,
+				6F25729420A645B500DA5B2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +69,17 @@
 				6F25728720A6433300DA5B2D /* Assets.xcassets */,
 				6F25728920A6433300DA5B2D /* LaunchScreen.storyboard */,
 				6F25728C20A6433300DA5B2D /* Info.plist */,
+				6F25729920A646D100DA5B2D /* Capital.swift */,
 			);
 			path = "Capital Cities";
+			sourceTree = "<group>";
+		};
+		6F25729420A645B500DA5B2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F25729720A645C500DA5B2D /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +114,11 @@
 				TargetAttributes = {
 					6F25727C20A6433000DA5B2D = {
 						CreatedOnToolsVersion = 9.3.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -141,6 +161,7 @@
 			files = (
 				6F25728320A6433000DA5B2D /* ViewController.swift in Sources */,
 				6F25728120A6433000DA5B2D /* AppDelegate.swift in Sources */,
+				6F25729A20A646D100DA5B2D /* Capital.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
